@@ -24,6 +24,7 @@ import jakarta.validation.Valid;
 @Controller
 public class ClienteController {
 	
+	//agregando comentarios a la clase ClienteController
 	@Autowired
     @Qualifier("clienteService")
 	private IClienteService clienteService;
